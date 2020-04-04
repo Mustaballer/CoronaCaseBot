@@ -1,0 +1,21 @@
+{
+  "name": "corona-count",
+  "version": "1.0.0",
+  "description": "live corona case count",
+  "main": "stats.js",
+  "scripts": {
+    "start": "node stats.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Mustafa Abdulrahman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.1.1",
+    "twit": "^2.2.11"
+  }
+}
