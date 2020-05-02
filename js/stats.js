@@ -73,14 +73,14 @@ async function main() {
         var totalC = parseInt(totalString);
         
         // get rid of spaces in deaths
-        let d = facts[1].replace(",",'').replace(/ /g,'');
+        let d = facts[1].replace(/,/g,"").replace(" ", "");
         var deaths = parseInt(d);
         // find percentage of deaths to total
         let deathPercent = (deaths / totalC) * 100;
         var rounded = Math.round(deathPercent * 10) / 10;
         
         // get rid of spaces in recovered
-        let r = facts[2].replace(",",'').replace(/ /g,'');
+        let r = facts[2].replace(/,/g,"").replace(" ", "");
         var recovered = parseInt(r);
         // find percentage of recoveries to total
         let recoveredPercent = (recovered / totalC) * 100;
