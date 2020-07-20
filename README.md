@@ -5,6 +5,8 @@ web scraping worldometers.info.
 
 Click the link here to see the twitter bot in action: https://twitter.com/LiveCoronaCount
 
+**It has been recently taken down
+
 ![CoronaBot Snap](https://i.snipboard.io/yg7LR5.jpg)
 
 ## Built With
